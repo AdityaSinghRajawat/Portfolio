@@ -13,9 +13,9 @@ const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [loading, setLoading] = useState(false);
 
-  const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-  const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-  const EMAILJS_PUBLIC_ID = import.meta.env.VITE_EMAILJS_PUBLIC_ID;
+  // const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  // const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  // const EMAILJS_PUBLIC_ID = import.meta.env.VITE_EMAILJS_PUBLIC_ID;
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -25,13 +25,13 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+    emailjs.send("service_pfees9x", "template_eqh1buw", {
       from_name: form.name,
       to_name: "Aditya Singh Rajawat",
       from_email: form.email,
       to_email: "adityasinghrajawat393@gmail.com",
       message: form.message
-    }, EMAILJS_PUBLIC_ID).then(() => {
+    }, "DUL4Ynilqbi8GnN7U").then(() => {
       setLoading(false);
       alert("Thank you. I will get back to you as soon as possible.");
       setForm({ name: '', email: '', message: '' });

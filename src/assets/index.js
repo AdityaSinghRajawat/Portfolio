@@ -36,7 +36,9 @@ import frontend from "./frontend.png"
 import back from "./back.png"
 import learn from "./learn.png"
 import comm from "./comm.jpg"
-
+import brainiac from "./brainiac.png"
+import promptoasis from "./promptoasis (2).png"
+import resushape from './resushape.png'
 
 export {
   logo,
@@ -71,5 +73,8 @@ export {
   frontend,
   learn,
   comm,
-  back
+  back,
+  brainiac,
+  promptoasis,
+  resushape
 };

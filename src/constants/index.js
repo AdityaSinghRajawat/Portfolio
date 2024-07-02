@@ -15,19 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     threejs,
     Glimpse,
     NewsSpace,
     Gossip,
     student,
     frontend,
-    back,
-    comm,
-    learn
+    promptoasis,
+    resushape,
+    brainiac,
 } from "../assets";
 
 export const navLinks = [
@@ -47,11 +43,11 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack Developer",
         icon: web,
     },
     {
-        title: "React Developer",
+        title: "MERN Stack Developer",
         icon: mobile,
     },
     {
@@ -121,55 +117,15 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Front-End Development",
-        company_name: "",
+        title: "Full Stack Developer Intern",
+        company_name: "Learn and Build pvt ltd.",
         icon: frontend,
         iconBg: "#383E56",
         date: "",
         points: [
-            "Developed a series of responsive websites and interactive user interfaces.",
-            "Achieved proficiency in HTML5, CSS3, and JavaScript fundamentals.",
-            "Specialized in responsive web design for optimal user experiences.",
-            "Expertise in building single-page applications with React.js.",
-        ],
-    },
-    {
-        title: "Back-End Development",
-        company_name: "",
-        icon: back,
-        iconBg: "#E6DEDD",
-        date: "",
-        points: [
-            "Gained back-end development skills with Node.js and Express.",
-            "Integrated databases such as MongoDB and MySQL.",
-            "Created RESTful APIs for web applications.",
-            "Developed full-stack applications with a focus on functionality.",
-        ],
-    },
-    {
-        title: "Collaboration and Communication",
-        company_name: "",
-        icon: comm,
-        iconBg: "#383E56",
-        date: "",
-        points: [
-            "Collaborated effectively with diverse teams on web development projects.",
-            "Communicated ideas clearly and contributed to group success.",
-            "Utilized Git and GitHub for version control and collaborative coding.",
-            "Maintained a clean commit history and resolved merge conflicts.",
-        ],
-    },
-    {
-        title: "Continuous Learning and Skill Development",
-        company_name: "",
-        icon: learn,
-        iconBg: "#E6DEDD",
-        date: "",
-        points: [
-            "Committed to staying updated with the latest web development trends.",
-            "Actively participated in workshops and online courses.",
-            "Embraced challenges and problem-solving as opportunities for growth.",
-            "Implemented best practices in coding and development.",
+            "Developed and maintained full-stack applications using MERN Stack.",
+            "Collaborated with teams to implement AI-powered features",
+            "Contributed to the creation of innovative solutions for various web apps",
         ],
     },
 ];
@@ -203,46 +159,75 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Gossip",
+        name: "ResuShape",
         description:
-            "Gossip is an engaging and user-friendly web chat application, facilitating real-time conversations, connecting people effortlessly, and fostering social connections online",
+            "Resushape is a platform for creating resumes using different templates",
         tags: [
             {
-                name: "nodejs",
+                name: "Nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "expressjs",
+                name: "Django",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Amazon S3",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Latex",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Typescript",
+                color: "green-text-gradient",
+            },
         ],
-        image: Gossip,
-        source_code_link: "https://github.com/AdityaSinghRajawat/Gossip-ChattingApp",
+        image: resushape,
+        source_code_link: "https://github.com/Ad-30/resumemaker",
     },
     {
-        name: "NewsSpace",
+        name: "PromptOasis",
         description:
-            "Stay informed with breaking news and curated articles from around the world. Your go-to destination for timely, reliable, and personalized news updates.",
+            "PromptOasis is an AI-powered hub for sharing and creating prompts",
         tags: [
             {
-                name: "react",
+                name: "Nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "newsapi",
+                name: "Typescript",
                 color: "green-text-gradient",
             },
             {
-                name: "bootstrap",
+                name: "NextAuth",
                 color: "pink-text-gradient",
             },
         ],
-        image: NewsSpace,
-        source_code_link: "https://github.com/AdityaSinghRajawat/NewsSpace-React",
+        image: promptoasis,
+        source_code_link: "https://github.com/AdityaSinghRajawat/PromptOasis-nextjs",
+    },
+    {
+        name: "Brainiac",
+        description:
+            "AI-powered SaaS platform offering diverse AI tools.",
+        tags: [
+            {
+                name: "Nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Clerk",
+                color: "green-text-gradient",
+            },
+            {
+                name: "AI tools",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: brainiac,
+        source_code_link: "https://github.com/AdityaSinghRajawat/Brainiac-AI",
     },
     {
         name: "Glimpse",
@@ -263,7 +248,7 @@ const projects = [
             },
         ],
         image: Glimpse,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/AdityaSinghRajawat/GlimpseServer",
     },
 ];
 
